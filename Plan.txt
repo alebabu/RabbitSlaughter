@@ -1,5 +1,49 @@
+--Rabbit Slaughter--
+
+By alebabu & pontusstjerna
+
+
+***************************
+LAST UPDATED: 2016-11-29 21:20
+***************************
+
+--SHORT DESCRIPTION--
+
 The game is about killing as many rabbits as possible and earn points. This game will be in 2d. Your weapons will be an axe
 to kill the rabbits, you will also be able to earn new weapons by killing the rabbits, like a flamethrower. This game will
 be simply to make so we will have some nice adds like highscore. The idea is to have an online database with the highscore
 on so you can beat other players scores. Most of all we will focus on the animations, sounds and meny's for an example
 you can earn some activements.
+
+--GAME DESIGN--
+
+Genre:
+    -Shooter
+
+Main objective:
+    -Kill as many fuckin' rabbits as you possibly can
+    
+Assets:
+    -2D sprites??
+    -Sounds??
+
+
+
+--TECHNICAL--
+
+Main programming language:
+    -??
+
+Graphics: 
+    -2D
+    -"Top View"
+    -OpenGL (Java SWING)??
+    
+Platform:
+    -Multiplatform??
+    
+    
+To be continued...
+    
+
+ 
