@@ -4,7 +4,7 @@ By alebabu & pontusstjerna
 
 
 *******************************
-LAST UPDATED: 2016-11-30 06:03
+LAST UPDATED: 2016-11-30 19:53
 *******************************
 
 --SHORT DESCRIPTION--
@@ -21,32 +21,27 @@ Genre:
     -Shooter
 
 Main objective:
-    -Kill as many fuckin' rabbits as you possibly can (what if you turn this around?)
+    -Kill as many fuckin' humans as a rabbit as you can
     
 Assets:
     -2D sprites??
     -Sounds??
 
 
-
 --TECHNICAL--
 
 Main programming language:
-    -??
+    C++
 
 Graphics: 
     -2D
     -"Top View"
     
 Development technology:
-    -One of:
-        *Java (Possibly SWING)??
-        *C# XNA??
-        *Unity??
-        *C++ SDL??
+    -C++ and SDL
     
 Platform:
-    -Multiplatform??
+    -Multiplatform
     
     
 To be continued...
