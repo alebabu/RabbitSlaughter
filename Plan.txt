@@ -21,7 +21,7 @@ Genre:
     -Shooter
 
 Main objective:
-    -Kill as many fuckin' rabbits as you possibly can
+    -Kill as many fuckin' rabbits as you possibly can (what if you turn this around?)
     
 Assets:
     -2D sprites??
@@ -37,7 +37,13 @@ Main programming language:
 Graphics: 
     -2D
     -"Top View"
-    -OpenGL (Java SWING)??
+    
+Development technology:
+    -One of:
+        *Java (Possibly SWING)??
+        *C# XNA??
+        *Unity??
+        *C++ SDL??
     
 Platform:
     -Multiplatform??
