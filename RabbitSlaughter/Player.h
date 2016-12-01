@@ -9,14 +9,22 @@
 #ifndef Player_h
 #define Player_h
 
-
 class Player {
-public:
+    public:
     Player(int);
     Player();
     ~Player();
+    // get and set functions
     int getX();
+    int getY();
+    void setX(int);
+    void setY(int);
+    void move();
+    
+
+    private:
     int x;
+    int y;
 };
 
 #endif /* Player_h */

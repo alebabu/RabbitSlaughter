@@ -1,9 +1,13 @@
 #include <stdio.h>
-//#include <SDL.h>
-#define AleksComputer
-#ifdef AleksComputer
-#include "/Library/Frameworks/SDL2.framework/Headers/SDL.h"
+
+#define SDL2
+#ifdef SDL2
+#include <SDL2/SDL.h>
+#else
+#include <SDL.h>
 #endif
+
+
 
 #include "Player.h"
 #include <unistd.h>
@@ -19,7 +23,6 @@ using namespace std;
 
 int main(int argc, char* args[])
 {
-
 	printf("Hello Alex!\n");
 
 	/*
@@ -53,15 +56,15 @@ int main(int argc, char* args[])
     
     printf("done");
 
-#ifdef WINDOWS
-	Sleep(10*1000);
-#else
-#ifdef IOS
-    usleep(10*1000);
-#else
-//    scanf("%c");
-#endif
-#endif
+    #ifdef WINDOWS
+        Sleep(10*1000);
+    #else
+    #ifdef IOS
+        usleep(10*1000);
+    #else
+        scanf("%c");
+    #endif
+    #endif
     
     for (int i = 0; i < 1024; i++) {
         delete players[i];
