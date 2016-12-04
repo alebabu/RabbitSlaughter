@@ -11,20 +11,21 @@
 
 class Player {
     public:
-    Player(int);
-    Player();
-    ~Player();
-    // get and set functions
-    int getX();
-    int getY();
-    void setX(int);
-    void setY(int);
-    void move();
+		Player(int);
+		Player();
+		~Player();
+
+		// get and set functions
+		int getX();
+		int getY();
+		void setX(int);
+		void setY(int);
+		void move();
     
 
     private:
-    int x;
-    int y;
+		int x;
+		int y;
 };
 
 #endif  // Player_h 

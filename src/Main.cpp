@@ -1,20 +1,14 @@
-#define SDL2
-
 #include <stdio.h>
-#ifdef SDL2
-#include <SDL2/SDL.h>
-#else
-#include <SDL.h>
-#endif
+#include "model/Player.h"
+#include "SDLWrapper.h"
 
-#include "Player.h"
-#include <unistd.h>
-
-#define MAC_OS
-//#define WINDOWS
+//#define MAC_OS
+#define WINDOWS
 
 #ifdef WINDOWS
 #include <Windows.h>
+#elif MAC_OS
+#include <unistd.h>
 #endif
 
 using namespace std;

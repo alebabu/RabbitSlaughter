@@ -1,3 +1,3 @@
-#include <SDL2/SDL.h>
+#include "../SDLWrapper.h"
 
 int x;
