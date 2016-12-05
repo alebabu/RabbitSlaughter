@@ -2,12 +2,13 @@
 #include "model/Player.h"
 #include "SDLWrapper.h"
 
-//#define MAC_OS
-#define WINDOWS
+#define MAC_OS
+//#define WINDOWS
 
 #ifdef WINDOWS
 #include <Windows.h>
-#elif MAC_OS
+#endif
+#ifdef MAC_OS
 #include <unistd.h>
 #endif
 

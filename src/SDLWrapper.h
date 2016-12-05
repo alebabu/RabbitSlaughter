@@ -1,4 +1,5 @@
-#define WINDOWS
+//#define WINDOWS
+#define MAC_OS
 
 #ifndef SDLWRAPPER_H
 #define SDLWRAPPER_H
