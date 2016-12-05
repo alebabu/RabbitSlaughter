@@ -1,3 +1,5 @@
+#define WINDOWS
+
 #ifndef SDLWRAPPER_H
 #define SDLWRAPPER_H
 
