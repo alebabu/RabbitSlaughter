@@ -8,4 +8,4 @@ public:
     ~RabbitGame();
 };
 
-#endif
+#endif //RabbitGame.h
