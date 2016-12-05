@@ -13,6 +13,8 @@ class MainWindow
 		const unsigned int WINDOW_WIDTH;
 		const unsigned int WINDOW_HEIGHT;
 
+        // =)
+        
 		SDL_Window* mainWindow = NULL;
 		SDL_Surface* mainSurface = NULL;
 };
