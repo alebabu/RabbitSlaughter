@@ -16,6 +16,9 @@ MainWindow::~MainWindow()
 {
 	printf("Destroying window...\n");
 	SDL_DestroyWindow(mainWindow);
+	SDL_DestroyTexture(background);
+	SDL_DestroyRenderer(renderer);
+
 	SDL_Quit();
 }
 
@@ -74,4 +77,28 @@ int MainWindow::CreateSurface()
 	}
 
 	return 0;
+}
+
+int MainWindow::CreateRenderer()
+{
+	//Using OpenGL
+	renderer = SDL_CreateRenderer(mainWindow, -1, SDL_RENDERER_ACCELERATED);
+
+	if (renderer == NULL)
+		return -1;
+
+	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+	
+}
+
+SDL_Texture* MainWindow::LoadTexture(char* path)
+{
+	SDL_Texture* texture = NULL;
+
+	SDL_Surface* tmpSurface = SDL_LoadBMP(path);
+
+	if (tmpSurface == NULL)
+		printf("Unable to load image: %s. \nCause: %s\n", path, SDL_GetError());
+
+	//TODO
 }
