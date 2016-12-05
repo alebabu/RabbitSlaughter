@@ -14,7 +14,9 @@ MainWindow::MainWindow() : MainWindow(800,600,"Rabbit's Laughter")
 
 MainWindow::~MainWindow()
 {
-
+	printf("Destroying window...\n");
+	SDL_DestroyWindow(mainWindow);
+	SDL_Quit();
 }
 
 int MainWindow::InitView()
@@ -37,7 +39,7 @@ int MainWindow::InitView()
 
 void MainWindow::Update(int fps)
 {
-	SDL_FillRect(mainSurface, NULL, SDL_MapRGB((*mainSurface).format, 10, 10, 10));
+	SDL_FillRect(mainSurface, NULL, SDL_MapRGB((*mainSurface).format, 100, 10, 200));
 
 	SDL_UpdateWindowSurface(mainWindow);
 }
