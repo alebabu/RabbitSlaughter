@@ -22,7 +22,7 @@ MainWindow::~MainWindow()
 	SDL_Quit();
 }
 
-int MainWindow::InitView()
+int MainWindow::InitView(World* world)
 {
 	//SDL returns -1 if it failed.
 	if (SDL_Init(SDL_INIT_VIDEO) == -1)
@@ -100,5 +100,12 @@ SDL_Texture* MainWindow::LoadTexture(char* path)
 	if (tmpSurface == NULL)
 		printf("Unable to load image: %s. \nCause: %s\n", path, SDL_GetError());
 
-	//TODO
+	texture = SDL_CreateTextureFromSurface(renderer, tmpSurface);
+	if(texture == NULL)
+		printf("Unable to load texture. \nCause: %s\n", SDL_GetError());
+
+	//Reallocate
+	SDL_FreeSurface(tmpSurface);
+
+	return texture;
 }

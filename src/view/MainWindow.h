@@ -11,7 +11,7 @@ class MainWindow
 		MainWindow(unsigned int, unsigned int, char*);
 		~MainWindow();
 
-		int InitView();
+		int InitView(World*);
 		void Update(int);
 	private:
 		int CreateWindow();
