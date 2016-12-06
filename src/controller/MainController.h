@@ -1,7 +1,7 @@
 #ifndef MainController_h
 #define MainController_h
-#include "RabbitGame.h"
-#include "MainWindow.h"
+#include "../model/RabbitGame.h"
+#include "../view/MainWindow.h"
 #include "PlayerController.h"
 
 class MainController

@@ -2,5 +2,5 @@
 
 void PlayerController::test()
 {
-    key = SDL_GetKeyboardFocus();
+    //key = SDL_GetKeyboardFocus();
 }

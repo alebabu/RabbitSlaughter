@@ -1,6 +1,6 @@
 #ifndef PlayerController_h
 #define PlayerController_h
-#include "SDLWrapper.h"
+#include "../SDLWrapper.h"
 
 class PlayerController
 {

@@ -22,7 +22,7 @@ MainWindow::~MainWindow()
 	SDL_Quit();
 }
 
-int MainWindow::InitView(World* world)
+int MainWindow::InitView()
 {
 	//SDL returns -1 if it failed.
 	if (SDL_Init(SDL_INIT_VIDEO) == -1)
