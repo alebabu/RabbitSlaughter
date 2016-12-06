@@ -13,7 +13,9 @@ public:
     void start();
     
 private:
-    RabbitGame game;
+    RabbitGame* game;
+    MainWindow* mainWindow;
+    PlayerController* playerController;
     void run(void);
     void update(void);
 };

@@ -6,6 +6,7 @@ class RabbitGame
 public:
     RabbitGame();
     ~RabbitGame();
+    void update();
 };
 
 #endif //RabbitGame.h
